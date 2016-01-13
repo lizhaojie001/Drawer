@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4571C8F81C44F1C300CD3B79 /* customCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4571C8F61C44F1C300CD3B79 /* customCollectionViewCell.m */; };
+		4571C8F91C44F1C300CD3B79 /* customCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4571C8F71C44F1C300CD3B79 /* customCollectionViewCell.xib */; };
+		4571C8FB1C44F9D400CD3B79 /* 08353.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4571C8FA1C44F9D400CD3B79 /* 08353.jpg */; };
+		45FDE03A1C449AF000825327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE0391C449AF000825327 /* main.m */; };
+		45FDE03D1C449AF000825327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE03C1C449AF000825327 /* AppDelegate.m */; };
+		45FDE0401C449AF000825327 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE03F1C449AF000825327 /* ViewController.m */; };
+		45FDE0431C449AF000825327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FDE0411C449AF000825327 /* Main.storyboard */; };
+		45FDE0451C449AF000825327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FDE0441C449AF000825327 /* Assets.xcassets */; };
+		45FDE0481C449AF000825327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FDE0461C449AF000825327 /* LaunchScreen.storyboard */; };
+		45FDE0591C449B1600825327 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE0511C449B1600825327 /* MMDrawerBarButtonItem.m */; };
+		45FDE05A1C449B1600825327 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE0541C449B1600825327 /* MMDrawerController.m */; };
+		45FDE05B1C449B1600825327 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE0561C449B1600825327 /* MMDrawerVisualState.m */; };
+		45FDE05C1C449B1600825327 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE0581C449B1600825327 /* UIViewController+MMDrawerController.m */; };
+		45FDE05F1C449D1900825327 /* leftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE05E1C449D1900825327 /* leftViewController.m */; };
+		45FDE0621C449D2A00825327 /* rightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE0611C449D2A00825327 /* rightViewController.m */; };
+		45FDE0651C449D3400825327 /* centerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE0641C449D3400825327 /* centerViewController.m */; };
+		45FDE0671C449FBC00825327 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDE0661C449FBC00825327 /* Reveal.framework */; };
+		45FDE06C1C44A60B00825327 /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE06B1C44A60B00825327 /* NaviViewController.m */; };
+		45FDE06D1C44A72600825327 /* libReveal.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 45FDE0681C449FC100825327 /* libReveal.dylib */; };
+		45FDE06F1C44A73B00825327 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDE06E1C44A73B00825327 /* libz.tbd */; };
+		45FDE0711C44A74300825327 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDE0701C44A74300825327 /* CFNetwork.framework */; };
+		45FDE0731C44A74A00825327 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDE0721C44A74A00825327 /* QuartzCore.framework */; };
+		45FDE0751C44A75500825327 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FDE0741C44A75500825327 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4571C8F51C44F1C300CD3B79 /* customCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCollectionViewCell.h; sourceTree = "<group>"; };
+		4571C8F61C44F1C300CD3B79 /* customCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCollectionViewCell.m; sourceTree = "<group>"; };
+		4571C8F71C44F1C300CD3B79 /* customCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customCollectionViewCell.xib; sourceTree = "<group>"; };
+		4571C8FA1C44F9D400CD3B79 /* 08353.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08353.jpg; sourceTree = "<group>"; };
+		45FDE0351C449AF000825327 /* DrawerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FDE0391C449AF000825327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45FDE03B1C449AF000825327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45FDE03C1C449AF000825327 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45FDE03E1C449AF000825327 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45FDE03F1C449AF000825327 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45FDE0421C449AF000825327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45FDE0441C449AF000825327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45FDE0471C449AF000825327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45FDE0491C449AF000825327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FDE0501C449B1600825327 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		45FDE0511C449B1600825327 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		45FDE0521C449B1600825327 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		45FDE0531C449B1600825327 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		45FDE0541C449B1600825327 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		45FDE0551C449B1600825327 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		45FDE0561C449B1600825327 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		45FDE0571C449B1600825327 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		45FDE0581C449B1600825327 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		45FDE05D1C449D1900825327 /* leftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftViewController.h; sourceTree = "<group>"; };
+		45FDE05E1C449D1900825327 /* leftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftViewController.m; sourceTree = "<group>"; };
+		45FDE0601C449D2A00825327 /* rightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rightViewController.h; sourceTree = "<group>"; };
+		45FDE0611C449D2A00825327 /* rightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rightViewController.m; sourceTree = "<group>"; };
+		45FDE0631C449D3400825327 /* centerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = centerViewController.h; sourceTree = "<group>"; };
+		45FDE0641C449D3400825327 /* centerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = centerViewController.m; sourceTree = "<group>"; };
+		45FDE0661C449FBC00825327 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		45FDE0681C449FC100825327 /* libReveal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libReveal.dylib; sourceTree = "<group>"; };
+		45FDE06A1C44A60B00825327 /* NaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		45FDE06B1C44A60B00825327 /* NaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
+		45FDE06E1C44A73B00825327 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		45FDE0701C44A74300825327 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		45FDE0721C44A74A00825327 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		45FDE0741C44A75500825327 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45FDE0321C449AF000825327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FDE0751C44A75500825327 /* CoreGraphics.framework in Frameworks */,
+				45FDE0731C44A74A00825327 /* QuartzCore.framework in Frameworks */,
+				45FDE0711C44A74300825327 /* CFNetwork.framework in Frameworks */,
+				45FDE06F1C44A73B00825327 /* libz.tbd in Frameworks */,
+				45FDE0671C449FBC00825327 /* Reveal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45FDE02C1C449AF000825327 = {
+			isa = PBXGroup;
+			children = (
+				45FDE0741C44A75500825327 /* CoreGraphics.framework */,
+				45FDE0721C44A74A00825327 /* QuartzCore.framework */,
+				45FDE0701C44A74300825327 /* CFNetwork.framework */,
+				45FDE06E1C44A73B00825327 /* libz.tbd */,
+				45FDE0371C449AF000825327 /* DrawerTest */,
+				45FDE0361C449AF000825327 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45FDE0361C449AF000825327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45FDE0351C449AF000825327 /* DrawerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45FDE0371C449AF000825327 /* DrawerTest */ = {
+			isa = PBXGroup;
+			children = (
+				45FDE0681C449FC100825327 /* libReveal.dylib */,
+				45FDE0661C449FBC00825327 /* Reveal.framework */,
+				45FDE04F1C449B1600825327 /* MMDrawerController */,
+				45FDE03B1C449AF000825327 /* AppDelegate.h */,
+				45FDE03C1C449AF000825327 /* AppDelegate.m */,
+				45FDE03E1C449AF000825327 /* ViewController.h */,
+				45FDE03F1C449AF000825327 /* ViewController.m */,
+				45FDE05D1C449D1900825327 /* leftViewController.h */,
+				45FDE05E1C449D1900825327 /* leftViewController.m */,
+				45FDE0601C449D2A00825327 /* rightViewController.h */,
+				45FDE0611C449D2A00825327 /* rightViewController.m */,
+				45FDE0631C449D3400825327 /* centerViewController.h */,
+				45FDE0641C449D3400825327 /* centerViewController.m */,
+				4571C8F51C44F1C300CD3B79 /* customCollectionViewCell.h */,
+				4571C8F61C44F1C300CD3B79 /* customCollectionViewCell.m */,
+				4571C8F71C44F1C300CD3B79 /* customCollectionViewCell.xib */,
+				45FDE06A1C44A60B00825327 /* NaviViewController.h */,
+				45FDE06B1C44A60B00825327 /* NaviViewController.m */,
+				45FDE0411C449AF000825327 /* Main.storyboard */,
+				45FDE0441C449AF000825327 /* Assets.xcassets */,
+				4571C8FA1C44F9D400CD3B79 /* 08353.jpg */,
+				45FDE0461C449AF000825327 /* LaunchScreen.storyboard */,
+				45FDE0491C449AF000825327 /* Info.plist */,
+				45FDE0381C449AF000825327 /* Supporting Files */,
+			);
+			path = DrawerTest;
+			sourceTree = "<group>";
+		};
+		45FDE0381C449AF000825327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45FDE0391C449AF000825327 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45FDE04F1C449B1600825327 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				45FDE0501C449B1600825327 /* MMDrawerBarButtonItem.h */,
+				45FDE0511C449B1600825327 /* MMDrawerBarButtonItem.m */,
+				45FDE0521C449B1600825327 /* MMDrawerController+Subclass.h */,
+				45FDE0531C449B1600825327 /* MMDrawerController.h */,
+				45FDE0541C449B1600825327 /* MMDrawerController.m */,
+				45FDE0551C449B1600825327 /* MMDrawerVisualState.h */,
+				45FDE0561C449B1600825327 /* MMDrawerVisualState.m */,
+				45FDE0571C449B1600825327 /* UIViewController+MMDrawerController.h */,
+				45FDE0581C449B1600825327 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45FDE0341C449AF000825327 /* DrawerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FDE04C1C449AF000825327 /* Build configuration list for PBXNativeTarget "DrawerTest" */;
+			buildPhases = (
+				45FDE0311C449AF000825327 /* Sources */,
+				45FDE0321C449AF000825327 /* Frameworks */,
+				45FDE0331C449AF000825327 /* Resources */,
+				45FDE0761C44A75C00825327 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawerTest;
+			productName = DrawerTest;
+			productReference = 45FDE0351C449AF000825327 /* DrawerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45FDE02D1C449AF000825327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tanada;
+				TargetAttributes = {
+					45FDE0341C449AF000825327 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 45FDE0301C449AF000825327 /* Build configuration list for PBXProject "DrawerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45FDE02C1C449AF000825327;
+			productRefGroup = 45FDE0361C449AF000825327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45FDE0341C449AF000825327 /* DrawerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45FDE0331C449AF000825327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4571C8F91C44F1C300CD3B79 /* customCollectionViewCell.xib in Resources */,
+				45FDE06D1C44A72600825327 /* libReveal.dylib in Resources */,
+				45FDE0481C449AF000825327 /* LaunchScreen.storyboard in Resources */,
+				4571C8FB1C44F9D400CD3B79 /* 08353.jpg in Resources */,
+				45FDE0451C449AF000825327 /* Assets.xcassets in Resources */,
+				45FDE0431C449AF000825327 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45FDE0761C44A75C00825327 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nif [ -n \"${CODE_SIGN_IDENTITY}\" ]; then\ncodesign -fs \"${CODE_SIGN_IDENTITY}\" \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}/libReveal.dylib\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45FDE0311C449AF000825327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FDE05B1C449B1600825327 /* MMDrawerVisualState.m in Sources */,
+				45FDE05F1C449D1900825327 /* leftViewController.m in Sources */,
+				45FDE0401C449AF000825327 /* ViewController.m in Sources */,
+				45FDE0651C449D3400825327 /* centerViewController.m in Sources */,
+				45FDE06C1C44A60B00825327 /* NaviViewController.m in Sources */,
+				45FDE05C1C449B1600825327 /* UIViewController+MMDrawerController.m in Sources */,
+				45FDE05A1C449B1600825327 /* MMDrawerController.m in Sources */,
+				45FDE0591C449B1600825327 /* MMDrawerBarButtonItem.m in Sources */,
+				45FDE03D1C449AF000825327 /* AppDelegate.m in Sources */,
+				45FDE0621C449D2A00825327 /* rightViewController.m in Sources */,
+				45FDE03A1C449AF000825327 /* main.m in Sources */,
+				4571C8F81C44F1C300CD3B79 /* customCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45FDE0411C449AF000825327 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FDE0421C449AF000825327 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45FDE0461C449AF000825327 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FDE0471C449AF000825327 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45FDE04A1C449AF000825327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45FDE04B1C449AF000825327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45FDE04D1C449AF000825327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DrawerTest",
+				);
+				INFOPLIST_FILE = DrawerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DrawerTest",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanada.DrawerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45FDE04E1C449AF000825327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DrawerTest",
+				);
+				INFOPLIST_FILE = DrawerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DrawerTest",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanada.DrawerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45FDE0301C449AF000825327 /* Build configuration list for PBXProject "DrawerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FDE04A1C449AF000825327 /* Debug */,
+				45FDE04B1C449AF000825327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FDE04C1C449AF000825327 /* Build configuration list for PBXNativeTarget "DrawerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FDE04D1C449AF000825327 /* Debug */,
+				45FDE04E1C449AF000825327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45FDE02D1C449AF000825327 /* Project object */;
+}
